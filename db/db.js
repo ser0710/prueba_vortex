@@ -14,7 +14,8 @@ const escritores = [
         'Porta nibh venenatis cras sed felis. Imperdiet nulla malesuada pellentesque elit. Nibh praesent tristique' + 
         'magna sit amet purus gravida. Tincidunt nunc pulvinar sapien et ligula ullamcorper malesuada proin. Quis' + 
         'viverra nibh cras pulvinar mattis. Malesuada nunc vel risus commodo viverra maecenas accumsan lacus vel.' + 
-        'Elit duis tristique sollicitudin nibh sit.'
+        'Elit duis tristique sollicitudin nibh sit.',
+        contribuciones: ['ddd', 'sdfsdfs']
     },
     {
         id: 2,
@@ -31,7 +32,8 @@ const escritores = [
         'Porta nibh venenatis cras sed felis. Imperdiet nulla malesuada pellentesque elit. Nibh praesent tristique' + 
         'magna sit amet purus gravida. Tincidunt nunc pulvinar sapien et ligula ullamcorper malesuada proin. Quis' + 
         'viverra nibh cras pulvinar mattis. Malesuada nunc vel risus commodo viverra maecenas accumsan lacus vel.' + 
-        'Elit duis tristique sollicitudin nibh sit.'
+        'Elit duis tristique sollicitudin nibh sit.',
+        contribuciones: ['sdsdsd', 'bdfbdfdf']
     }
 ]
 

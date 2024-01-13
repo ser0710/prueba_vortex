@@ -1,5 +1,6 @@
 import Router from "next/router";
 import { useState } from "react";
+import Cookies from "js-cookie";
 
 const index = () => {
 
@@ -9,8 +10,10 @@ const index = () => {
     const onSubmit = (event) => {
         event.preventDefault();
         if(email === 'estudiante'){
+            Cookies.set('usuario', email, {path: '/'});
             Router.push('/estudiantes/home');
         } else if(email === 'escritor'){
+            Cookies.set('usuario', email, {path: '/'});
             Router.push('/escritores/home');
         } else{
             alert('usuario invalido');
