@@ -1,0 +1,9 @@
+body{ 
+    margin: 0;
+    padding: 0;
+    background-position: center;
+    background-repeat: no-repeat;
+    min-height: 100vh;
+    width: 100%;
+    background: linear-gradient(130deg, rgba(2,170,20,1) 0%, rgba(47,213,115,1) 35%, rgba(133,249,182,1) 55%, rgba(47,213,115,1) 75%, rgba(2,170,20,1) 100%);
+}

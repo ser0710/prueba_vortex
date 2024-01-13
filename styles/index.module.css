@@ -1,0 +1,94 @@
+#login{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+#loginBox{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#loginBtn{
+    margin-top: 7%;
+    text-align: center;
+}
+
+.inputs{
+    margin: 0 30%;
+    color: rgb(255, 255, 255); 
+
+    
+}
+
+.titles{
+    margin: 0 30%;
+}
+
+#formLogin{ 
+    margin: 0 auto;
+    width: 50%;
+    background-color: darkolivegreen;
+    padding: 7% 0%;
+    border-radius:42px;
+}
+
+
+#btnLogin {
+    width: 40%;
+    background:linear-gradient(to bottom, #44c767 5%, #5cbf2a 100%);
+	background-color:#44c767;
+	border-radius:42px;
+	border:3px solid #18ab29;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Arial;
+	font-size:100%;
+	padding: 2% 2%;
+	text-decoration:none;
+	text-shadow:0px 2px 0px #2f6627;
+}
+
+#btnLogin:hover {
+	background:linear-gradient(to bottom, #5cbf2a 5%, #44c767 100%);
+	background-color:#5cbf2a;
+}
+#btnLogin:active {
+	position:relative;
+	top:1px;
+}
+
+.groupIn{
+    font-family: 'Segoe UI', sans-serif;
+
+}
+
+.inputs::placeholder { 
+    color: rgb(255, 255, 255); 
+
+}
+
+.groupIn input {
+    font-size: 100%;
+    padding: 0.8em;
+    outline: none;
+    border: 2px solid rgb(200, 200, 200);
+    background-color: transparent;
+    border-radius: 20px;
+    width: 100%;
+}
+
+
+.groupIn :is(input:focus, input:valid) {
+    color: rgb(255, 255, 255); 
+    background-color: transparent;
+    border-color: rgb(150, 150, 200);
+}
+
+#title{
+    text-align: center;
+    margin-bottom: 4%;
+}
+
