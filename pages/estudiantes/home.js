@@ -1,6 +1,8 @@
 import Header from "../../components/header";
 import React, { useState } from 'react';
 import Link from "next/link";
+import styles from '../../styles/homeEstu.module.css';
+
 const home = () => {
     const [mostrar, setMostrar] = useState(false);
 
@@ -30,7 +32,7 @@ const home = () => {
                     <button class="btn btn-outline-secondary" type="button" id="button-addon2" onClick={handleShow}>?</button>
                 </div>
                 { mostrar && (
-                    <div className="d-flex flex-row flex-wrap justify-content-between">
+                    <div className="d-flex flex-row flex-wrap justify-content-between" id={styles.results}>
                         {render}
                     </div>
                 )}

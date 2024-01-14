@@ -19,7 +19,7 @@ const id = () => {
                     <h1>Detalles</h1>
                     <div class="container text-center">
                         <div class="row">
-                            <div style={{width: '300px', backgroundColor: 'red', height: '200px'}}></div>
+                            <div style={{width: '30%', backgroundColor: 'black', height: '30%'}}>a</div>
                             <div class="col">
                                 <h3>contribuciones</h3>
                                 <List con={escritor.contribuciones}></List>
@@ -29,7 +29,7 @@ const id = () => {
                     <div>
                         <h3>Perfil</h3>
                         <hr/>
-                        {escritor.perfil}
+                        <p className={styles.text}>{escritor.perfil}</p>
                     </div>
                 </div>
                 <div id={styles.pagos} >

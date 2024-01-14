@@ -2,3 +2,16 @@
     margin-left: 30%;
     margin-right: 30%;
 }
+
+.text {
+    color: #ffffff; 
+    background-color: rgb(19, 133, 40);
+    margin: 3%;
+    padding: 2%;
+    border-radius: 42px;
+    
+}
+
+#prueba {
+    float: left;
+}
